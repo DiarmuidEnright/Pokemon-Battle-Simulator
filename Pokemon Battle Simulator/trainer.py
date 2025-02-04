@@ -54,7 +54,7 @@ class Trainer(object):
         if len(self._pokemon_team)<3:
             self._pokemon_team.append(pokemon)
         else:
-            print("Team full")
+            print("Team full") #this is for when the temam is full
 
     #properties
     name = property(get_name, set_name)
